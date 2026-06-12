@@ -22,6 +22,12 @@ How to run (examples)
 - LIMIT order example:
   python -m trading_bot.cli place --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 50000 --api-key YOUR_KEY --api-secret YOUR_SECRET
 
+Important links
+
+- Binance Futures Testnet (site): https://testnet.binancefuture.com
+- Futures REST API documentation: https://binance-docs.github.io/apidocs/futures/en/
+- API Key management (Futures docs): https://binance-docs.github.io/apidocs/futures/en/#api-key-management
+
 Logging
 
 Logs are written to trading_bot.log by default. Sample simulated log files are in sample_logs/ (market_order.log, limit_order.log).
