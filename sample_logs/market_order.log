@@ -1,0 +1,3 @@
+2026-06-12 10:00:00 INFO trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order payload={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'recvWindow': 5000, 'timestamp': 1718179200000}
+2026-06-12 10:00:00 INFO trading_bot.client: Response status=200 body={"clientOrderId":"abc123","cumQty":"0.001","cumQuote":"58.0","orderId":1012345678,"avgPrice":"58000.0","origQty":"0.001","price":"0.00000","status":"FILLED","timeInForce":"GTC","type":"MARKET","side":"BUY"}
+2026-06-12 10:00:00 INFO trading_bot.orders: Order successful: {'orderId': 1012345678, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '58000.0'}
